@@ -1,0 +1,40 @@
+{
+  "name": "@mowgli/badge",
+  "version": "0.0.6",
+  "description": "Badge component for React Native apps.",
+  "main": "src/index.tsx",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafmst/mowgli",
+    "directory": "Badge"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "expo",
+    "badge",
+    "native badge",
+    "react native badge",
+    "expo badge",
+    "badge"
+  ],
+  "author": "Rafael Morais <rafaelcanical@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafmst/mowgli/issues"
+  }
+}

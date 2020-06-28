@@ -1,6 +1,5 @@
 import React from 'react'
 import { View, Text, Platform } from 'react-native'
-import colors from '../../config/colors'
 import { BadgeProps } from './types'
 
 class Badge extends React.Component<BadgeProps> {
@@ -21,17 +20,17 @@ class Badge extends React.Component<BadgeProps> {
 
     const borderRadius: number = Platform.OS === 'ios' ? 120 : 4
 
-    let backgroundColor: string = colors.primary
+    let backgroundColor: string = '#3366FF'
     if (primary) {
-      backgroundColor = colors.primary
+      backgroundColor = '#3366FF'
     } else if (success) {
-      backgroundColor = colors.success
+      backgroundColor = '#97CC06'
     } else if (info) {
-      backgroundColor = colors.info
+      backgroundColor = '#00AEFF'
     } else if (warning) {
-      backgroundColor = colors.warning
+      backgroundColor = '#FFC311'
     } else if (danger) {
-      backgroundColor = colors.danger
+      backgroundColor = '#FF472B'
     } else if (color) {
       backgroundColor = color
     }
@@ -58,7 +57,7 @@ class Badge extends React.Component<BadgeProps> {
             full ? { alignItems: 'center' } : {}
           ]}
         >
-          <Text style={{ fontSize, color: colors.white }}>{text}</Text>
+          <Text style={{ fontSize, color: 'white' }}>{text}</Text>
         </View>
       </View>
     )
