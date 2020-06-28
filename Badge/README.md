@@ -1,7 +1,5 @@
 # @mowgli/badge
 
-<img src="https://user-images.githubusercontent.com/924985/85956431-2b36f680-b986-11ea-8ebe-2b34994d13b1.png" />
-
 Badge component for React Native apps.
 
 <p>
@@ -10,6 +8,10 @@ Badge component for React Native apps.
     <a href="https://www.npmjs.com/package/@mowgli/badge"><img src="https://img.shields.io/npm/dt/@mowgli/badge"></a>
     <a href="https://github.com/rafmst/nau/blob/master/LICENSE"><img src="https://img.shields.io/github/license/rafmst/mowgli"></a>
 </p>
+
+## Preview
+
+<img src="https://user-images.githubusercontent.com/924985/85956431-2b36f680-b986-11ea-8ebe-2b34994d13b1.png" />
 
 ## Instalation
 
