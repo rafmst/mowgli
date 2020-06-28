@@ -1,5 +1,7 @@
 # @mowgli/badge
 
+<img src="https://user-images.githubusercontent.com/924985/85956431-2b36f680-b986-11ea-8ebe-2b34994d13b1.png" />
+
 Badge component for React Native apps.
 
 <p>
