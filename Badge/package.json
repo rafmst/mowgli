@@ -1,40 +1,50 @@
 {
-  "name": "@mowgli/badge",
-  "version": "0.0.6",
-  "description": "Badge component for React Native apps.",
-  "main": "src/index.tsx",
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rafmst/mowgli",
-    "directory": "Badge"
-  },
-  "keywords": [
-    "react-native",
-    "react-component",
-    "react-native-component",
-    "react",
-    "react native",
-    "mobile",
-    "ios",
-    "android",
-    "ui",
-    "expo",
-    "badge",
-    "native badge",
-    "react native badge",
-    "expo badge",
-    "badge"
-  ],
-  "author": "Rafael Morais <rafaelcanical@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rafmst/mowgli/issues"
-  }
+    "name": "@mowgli/badge",
+    "version": "0.0.15",
+    "description": "Badge component for React Native apps.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "prepare": "tsc",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.2"
+    },
+    "devDependencies": {
+        "@types/react": "^16.9.35",
+        "@types/react-native": "0.61.10",
+        "babel-jest": "^25.2.6",
+        "babel-preset-react-native": "^4.0.0",
+        "react": "~16.9.0",
+        "react-native": "~0.61.5",
+        "typescript": "^3.9.5"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "author": "Rafael Morais <rafaelcanical@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rafmst/mowgli/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rafmst/mowgli",
+        "directory": "Badge"
+    },
+    "keywords": [
+        "react-native",
+        "react",
+        "native",
+        "badge",
+        "android",
+        "ios",
+        "label",
+        "simple"
+    ]
 }
